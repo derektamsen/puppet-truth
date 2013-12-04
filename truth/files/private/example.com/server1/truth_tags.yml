@@ -1,0 +1,8 @@
+---
+role:
+  - base
+  - nfsclient
+env:
+  - dev
+loc:
+  datacenter: "aws"

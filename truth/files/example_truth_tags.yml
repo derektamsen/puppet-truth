@@ -1,0 +1,18 @@
+--- # No tabs in this file or the yaml parser will fail
+role:
+    - www
+    - loadbalancer
+    - loadbalancer
+    - db
+    - hadoop-master
+
+loc:
+    country: us
+    state: ca
+    city: sf
+
+hosting:
+    provider: aws
+
+env:
+    - production
